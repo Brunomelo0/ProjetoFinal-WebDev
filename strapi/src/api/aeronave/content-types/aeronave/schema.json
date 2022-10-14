@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aeronaves",
+  "info": {
+    "singularName": "aeronave",
+    "pluralName": "aeronaves",
+    "displayName": "Aeronave"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Empresa": {
+      "type": "string",
+      "required": true
+    },
+    "Localizador": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}
