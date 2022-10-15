@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #16425b;
+    border-radius: 0px 0px 10px 10px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+.logo {
+    color: white;
+    font-weight: bolder;
+}
+
+.top-bar .nav a {
+    color: white;
+}
+
+.top-bar .nav a:hover {
+    background-color: white;
+    color: black;
+}
+.search {
+    background-color: #81c3d7;
+    margin-top: 3px;
+}
+.search-box {
+    background-color: white;
+    border-radius: 10px;
+}
+.search-title {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.search-form button {
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: orangered;
+    border: none;
+}
+.search-form button svg {
+    margin-right: 5px;
+}
