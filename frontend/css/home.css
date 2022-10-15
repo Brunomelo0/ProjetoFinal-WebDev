@@ -25,7 +25,8 @@ body {
 }
 .search {
     background-color: #81c3d7;
-    margin-top: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .search-box {
     background-color: white;
@@ -42,6 +43,16 @@ body {
     background-color: orangered;
     border: none;
 }
+.search-form button:hover {
+    background-color: #16425b !important;
+}
 .search-form button svg {
     margin-right: 5px;
+}
+.cards .card a{
+    background-color: #16425b;
+    border: none;
+}
+.cards .card a:hover{
+    background-color: #2f6690;
 }
