@@ -4,7 +4,8 @@
   "info": {
     "singularName": "aeronave",
     "pluralName": "aeronaves",
-    "displayName": "Aeronave"
+    "displayName": "Aeronave",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,11 @@
       "type": "integer",
       "required": true,
       "unique": true
+    },
+    "passagems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::passagem.passagem"
     }
   }
 }

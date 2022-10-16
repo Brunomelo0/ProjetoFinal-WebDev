@@ -23,12 +23,6 @@
       "required": true,
       "unique": true
     },
-    "localizador": {
-      "type": "integer",
-      "min": 100,
-      "required": true,
-      "unique": true
-    },
     "origem": {
       "type": "string",
       "required": true
@@ -36,6 +30,11 @@
     "destino": {
       "type": "string",
       "required": true
+    },
+    "localizador": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
